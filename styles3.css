@@ -1,0 +1,132 @@
+ body {
+    background-image: linear-gradient(#E9B163,#D9BB8D,#EAA029);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header{
+    height: 200px;
+    background-color: #c7872d;
+    padding-left: 50px;
+    margin-bottom: 150px;
+    align-content: center;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+    padding: 10px;
+  }
+
+  .cart-item img {
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 100px;
+    object-fit: contain;
+    background: #E7C498;
+  }
+
+  .item-name {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .item-price {
+    margin-top: 5px;
+    font-size: 32px;
+  }
+
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  .quantity-control button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    background: #e0d6c1;
+  }
+
+  .span-area{
+    margin-bottom: 20px;
+    font-size: 32px;
+    padding-left: 40px;
+  }
+
+  textarea {
+    height: 200px;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .order {
+    width: 90%;
+    justify-self:center;
+  }
+
+  .total {
+    font-weight: bold;
+    margin: 15px 0;
+    justify-self:center;
+    font-size: 32px;
+  }
+
+  .chk-btn {
+    width: 90%;
+    justify-self: center;
+    height: 60px;
+  }
+
+  .checkout-btn {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background: #a56c26;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .back-menu {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration-line: underline;
+    font-size: 32px;
+  }
+
+  .bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    margin-top: auto;
+}
+
+.nav-item {
+  height:40px;
+  width:35px;
+}
+
+.home-page-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
